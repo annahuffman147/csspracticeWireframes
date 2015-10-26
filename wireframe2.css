@@ -1,0 +1,33 @@
+.navbox {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  background: aqua;
+  float:left;
+  padding: 1em;
+
+}
+div .body {
+  display: inline-block;
+}
+div .threebox {
+  flex-flow: row;
+  align-self: center;
+}
+.largebox {
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  background: pink;
+  float: right;
+}
+.imgbox {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  background: purple;
+  padding: 1em;
+  margin: 0, auto;
+  display: inline-block;
+  align-content: center;
+}
